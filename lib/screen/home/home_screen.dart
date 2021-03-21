@@ -55,59 +55,63 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                   ),
                   Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Card(
-                          child: ListTile(
-                            contentPadding: EdgeInsets.only(left: 5, right: 5),
-                            tileColor: Colors.white,
-                            leading: Image.network(
-                              'https://www.bloggang.com/data/abird/picture/1398265977.jpg',
-                              fit: BoxFit.cover,
-                            ),
-                            title: Text(
-                              "ศรัทธาสาธุชน",
-                              maxLines: 2,
-                              style: TextStyle(
-                                fontSize: 12,
+                    child: SingleChildScrollView(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Card(
+                            child: ListTile(
+                              contentPadding:
+                                  EdgeInsets.only(left: 5, right: 5),
+                              tileColor: Colors.white,
+                              leading: Image.network(
+                                'https://www.bloggang.com/data/abird/picture/1398265977.jpg',
+                                fit: BoxFit.cover,
                               ),
-                            ),
-                            subtitle: Text(
-                              "สรงน้ำพระ",
-                              maxLines: 2,
-                              style: TextStyle(
-                                fontSize: 12,
+                              title: Text(
+                                "ศรัทธาสาธุชน",
+                                maxLines: 2,
+                                style: TextStyle(
+                                  fontSize: 12,
+                                ),
                               ),
-                            ),
-                          ),
-                        ),
-                        Card(
-                          child: ListTile(
-                            contentPadding: EdgeInsets.only(left: 5, right: 5),
-                            tileColor: Colors.white,
-                            leading: Image.network(
-                              'https://www.bloggang.com/data/abird/picture/1398265977.jpg',
-                              fit: BoxFit.cover,
-                            ),
-                            title: Text(
-                              "argument is null, the text will use the style from the closest enclosing",
-                              maxLines: 2,
-                              style: TextStyle(
-                                fontSize: 12,
-                              ),
-                            ),
-                            subtitle: Text(
-                              "use the style from the closest enclosing",
-                              maxLines: 2,
-                              style: TextStyle(
-                                fontSize: 12,
+                              subtitle: Text(
+                                "สรงน้ำพระ",
+                                maxLines: 2,
+                                style: TextStyle(
+                                  fontSize: 12,
+                                ),
                               ),
                             ),
                           ),
-                        ),
-                      ],
+                          Card(
+                            child: ListTile(
+                              contentPadding:
+                                  EdgeInsets.only(left: 5, right: 5),
+                              tileColor: Colors.white,
+                              leading: Image.network(
+                                'https://www.bloggang.com/data/abird/picture/1398265977.jpg',
+                                fit: BoxFit.cover,
+                              ),
+                              title: Text(
+                                "argument is null, the text will use the style from the closest enclosing",
+                                maxLines: 2,
+                                style: TextStyle(
+                                  fontSize: 12,
+                                ),
+                              ),
+                              subtitle: Text(
+                                "use the style from the closest enclosing",
+                                maxLines: 2,
+                                style: TextStyle(
+                                  fontSize: 12,
+                                ),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                 ],
