@@ -49,13 +49,7 @@ class _MainScreenState extends State<MainScreen> {
                 leading: Icon(Icons.info),
                 title: Text("Information"),
               ),
-              ListTile(
-                onTap: () {
-                  Navigator.pushNamed(context, '/Map');
-                },
-                leading: Icon(Icons.my_location),
-                title: Text("Map"),
-              ),
+              
             ],
           ),
         ),
