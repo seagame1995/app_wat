@@ -1,5 +1,6 @@
 import 'package:app_wat/screen/history_screen.dart';
 import 'package:app_wat/screen/home/map_screen.dart';
+import 'package:app_wat/screen/home/member_screen.dart';
 import 'package:app_wat/screen/main_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -20,6 +21,11 @@ class OnGenerateRoute {
       case '/Map':
         return MaterialPageRoute(
           builder: (context) => MapScreen(),
+        );
+        break;
+        case '/member':
+        return MaterialPageRoute(
+          builder: (context) => MemberScreen(),
         );
         break;
       default:
