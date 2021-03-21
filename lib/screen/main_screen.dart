@@ -36,11 +36,12 @@ class _MainScreenState extends State<MainScreen> {
                 ),
               ),
               ListTile(
-                leading: Icon(
-                  Icons.home,
-                ),
-                title: Text("หน้าแรก"),
-              ),
+              onTap: (){
+                Navigator.pushNamed(context, '/');
+              },
+              leading: Icon(Icons.people),
+              title: Text("หน้าแรก"),
+            ),
               ListTile(
               onTap: (){
                 Navigator.pushNamed(context, '/history');
