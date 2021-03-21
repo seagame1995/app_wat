@@ -15,25 +15,21 @@ class _HistoryScreenState extends State<HistoryScreen> {
         title: Text("History"),
       ),
       body: Container(
-        
         child: Column(
           children: [
-            
             Container(
-              
-              child: Image.network("https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03013238_1.jpeg"),
-              
+              padding: EdgeInsets.all(10),
+              child: Image.network(
+                  "https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03013238_1.jpeg"),
+            ),
+            Container(
+              padding: EdgeInsets.all(10),
+              child: Image.network(
+                  "https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03013238_1.jpeg"),
             )
-
-            
-            
-
           ],
         ),
-        
-      ),  
-      
-      
+      ),
     );
   }
 }
