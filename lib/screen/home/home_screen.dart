@@ -12,7 +12,8 @@ class _HomeScreenState extends State<HomeScreen> {
   final imageList = [
     "https://www.renown-travel.com/images/wat-phra-singh-chiang-mai-l.jpg",
     "https://www.renown-travel.com/images/wat-lok-molee-s.jpg",
-    "https://photos.smugmug.com/Thailand/Chiang-Mai/i-4SKsckV/0/X2/wat_phra_singh_chiang_mai-30-X2.jpg"
+    "https://photos.smugmug.com/Thailand/Chiang-Mai/i-4SKsckV/0/X2/wat_phra_singh_chiang_mai-30-X2.jpg",
+    "https://cdn.galaxy.tf/unit-media/tc-default/uploads/images/poi_photo/001/553/511/wat-phra-sigh-standard.jpg"
   ];
   @override
   Widget build(BuildContext context) {
@@ -24,7 +25,7 @@ class _HomeScreenState extends State<HomeScreen> {
             Container(
               height: 200,
               child: Swiper(
-                itemCount: 3,
+                itemCount: 4,
                 autoplay: true,
                 pagination: SwiperPagination(),
                 itemBuilder: (context, index) {
@@ -63,7 +64,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             contentPadding: EdgeInsets.only(left: 5, right: 5),
                             tileColor: Colors.white,
                             leading: Image.network(
-                              'https://via.placeholder.com/150x150',
+                              'https://www.bloggang.com/data/abird/picture/1398265977.jpg',
                               fit: BoxFit.cover,
                             ),
                             title: Text(
@@ -74,7 +75,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               ),
                             ),
                             subtitle: Text(
-                              "เข้าวัดทำบุญเนื่องในวันมาฆบูชา",
+                              "สรงน้ำพระ",
                               maxLines: 2,
                               style: TextStyle(
                                 fontSize: 12,
@@ -87,7 +88,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             contentPadding: EdgeInsets.only(left: 5, right: 5),
                             tileColor: Colors.white,
                             leading: Image.network(
-                              'https://via.placeholder.com/150x150',
+                              'https://www.bloggang.com/data/abird/picture/1398265977.jpg',
                               fit: BoxFit.cover,
                             ),
                             title: Text(
