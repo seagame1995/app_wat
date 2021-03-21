@@ -66,7 +66,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   EdgeInsets.only(left: 5, right: 5),
                               tileColor: Colors.white,
                               leading: Image.network(
-                                'https://www.bloggang.com/data/abird/picture/1398265977.jpg',
+                                'https://lh3.googleusercontent.com/proxy/yp6N8Su5EUZCrVt6FRMQNKzwSSROzDtmv6p_cx-lf3EQk41iYDLf0z0A_OqvFo_inXZstxLk9g6Unjf3h9e3ytT9lOmQl4YTxjrkM58e1g',
                                 fit: BoxFit.cover,
                               ),
                               title: Text(
@@ -91,18 +91,18 @@ class _HomeScreenState extends State<HomeScreen> {
                                   EdgeInsets.only(left: 5, right: 5),
                               tileColor: Colors.white,
                               leading: Image.network(
-                                'https://www.bloggang.com/data/abird/picture/1398265977.jpg',
+                                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScjwJ5ks_iL6i9vlML9qwsqS33rB-ZeeOO4w&usqp=CAU',
                                 fit: BoxFit.cover,
                               ),
                               title: Text(
-                                "argument is null, the text will use the style from the closest enclosing",
+                                "ทำบุญ",
                                 maxLines: 2,
                                 style: TextStyle(
                                   fontSize: 12,
                                 ),
                               ),
                               subtitle: Text(
-                                "use the style from the closest enclosing",
+                                "ในวันมาฆบูชา",
                                 maxLines: 2,
                                 style: TextStyle(
                                   fontSize: 12,
@@ -126,18 +126,18 @@ class _HomeScreenState extends State<HomeScreen> {
                     contentPadding: EdgeInsets.only(left: 5, right: 5),
                     tileColor: Colors.white,
                     leading: Image.network(
-                      'https://via.placeholder.com/150x150',
+                      'https://obs.line-scdn.net/0hbnAAkGjbPUF8OBFkMrhCFkZuPi5PVC5CGA5sQiBWY3UBDXkSQgt0L189YXAGCXofEg50Jl0-JnBXDi4QEAx0/w644',
                       fit: BoxFit.cover,
                     ),
                     title: Text(
-                      "argument is null, the text will use the style from the closest enclosing",
+                      "สวดมนต์ข้ามปี ถวายเป็นพระราชกุศล เสริมสิริมงคลทั่วไทย",
                       maxLines: 2,
                       style: TextStyle(
                         fontSize: 12,
                       ),
                     ),
                     subtitle: Text(
-                      "use the style from the closest enclosing",
+                      "ส่งท้ายปีเก่าวิถีไทย ต้อนรับปีใหม่วิถีธรรม พุทธศักราช 2564 ณ วัดพระสิงห์",
                       maxLines: 2,
                       style: TextStyle(
                         fontSize: 12,
@@ -150,42 +150,18 @@ class _HomeScreenState extends State<HomeScreen> {
                     contentPadding: EdgeInsets.only(left: 5, right: 5),
                     tileColor: Colors.white,
                     leading: Image.network(
-                      'https://via.placeholder.com/150x150',
+                      'https://mpics.mgronline.com/pics/Images/562000004440906.JPEG',
                       fit: BoxFit.cover,
                     ),
                     title: Text(
-                      "argument is null, the text will use the style from the closest enclosing",
+                      "พุทธศาสนิกชนชาวเชียงใหม่",
                       maxLines: 2,
                       style: TextStyle(
                         fontSize: 12,
                       ),
                     ),
                     subtitle: Text(
-                      "use the style from the closest enclosing",
-                      maxLines: 2,
-                      style: TextStyle(
-                        fontSize: 12,
-                      ),
-                    ),
-                  ),
-                ),
-                Card(
-                  child: ListTile(
-                    contentPadding: EdgeInsets.only(left: 5, right: 5),
-                    tileColor: Colors.white,
-                    leading: Image.network(
-                      'https://via.placeholder.com/150x150',
-                      fit: BoxFit.cover,
-                    ),
-                    title: Text(
-                      "argument is null, the text will use the style from the closest enclosing",
-                      maxLines: 2,
-                      style: TextStyle(
-                        fontSize: 12,
-                      ),
-                    ),
-                    subtitle: Text(
-                      "use the style from the closest enclosing",
+                      "พร้อมใจตักบาตรวันมหามงคลพระราชพิธีบรมราชาภิเษก กันเนืองแน่น ขณะที่คณะสงฆ์ มอบข้าวปลาอาหารที่ใส่บาตรให้อาสาดับไฟป่าทั้งหมด",
                       maxLines: 2,
                       style: TextStyle(
                         fontSize: 12,
