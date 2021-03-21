@@ -12,7 +12,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("History"),
+        title: Text("Information"),
       ),
       body: ListView(
         children: <Widget>[

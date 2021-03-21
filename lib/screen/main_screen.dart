@@ -40,20 +40,20 @@ class _MainScreenState extends State<MainScreen> {
                   Navigator.pushNamed(context, '/');
                 },
                 leading: Icon(Icons.home),
-                title: Text("หน้าแรก"),
+                title: Text("Main"),
               ),
               ListTile(
                 onTap: () {
                   Navigator.pushNamed(context, '/history');
                 },
-                leading: Icon(Icons.people),
-                title: Text("ประวัติวัด"),
+                leading: Icon(Icons.info),
+                title: Text("Information"),
               ),
               ListTile(
                 onTap: () {
                   Navigator.pushNamed(context, '/Map');
                 },
-                leading: Icon(Icons.map),
+                leading: Icon(Icons.my_location),
                 title: Text("Map"),
               ),
             ],
