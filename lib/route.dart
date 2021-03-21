@@ -11,9 +11,14 @@ class OnGenerateRoute {
           builder: (context) => MainScreen(),
         );
         break;
-      default:
+        case '/history':
         return MaterialPageRoute(
           builder: (context) => HistoryScreen(),
+        );
+        break;
+      default:
+        return MaterialPageRoute(
+          builder: (context) => MainScreen(),
         );
     }
   }
