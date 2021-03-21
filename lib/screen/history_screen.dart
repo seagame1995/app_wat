@@ -55,9 +55,9 @@ class _HistoryScreenState extends State<HistoryScreen> {
                 "https://www.emagtravel.com/wp-content/uploads/2010/12/wat-prasing-a1.jpg"),
           ),
           Container(
-            padding: EdgeInsets.all(15),
+            padding: EdgeInsets.all(8),
             child: Text(
-                "พระธาตุเจดีย์วัดพระสิงห์  พระธาตุประจำปีเกิดของผู้ที่เกิดปีมะโรง"),
+                "พระธาตุเจดีย์วัดพระสิงห์  พระธาตุประจำปีเกิดของผู้ที่เกิดปีมะโรง",textAlign: TextAlign.center,),
           ),
           Container(
             padding: EdgeInsets.all(5),
