@@ -12,11 +12,28 @@ class _HistoryScreenState extends State<HistoryScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("ประวัติ"),
+        title: Text("History"),
       ),
-      body: Center(
-        child: Text("History Screen"),
-      ),
+      body: Container(
+        
+        child: Column(
+          children: [
+            
+            Container(
+              
+              child: Image.network("https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03013238_1.jpeg"),
+              
+            )
+
+            
+            
+
+          ],
+        ),
+        
+      ),  
+      
+      
     );
   }
 }
