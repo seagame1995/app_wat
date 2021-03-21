@@ -1,8 +1,7 @@
 import 'package:app_wat/screen/history_screen.dart';
+import 'package:app_wat/screen/home/map_screen.dart';
 import 'package:app_wat/screen/main_screen.dart';
 import 'package:flutter/material.dart';
-
-import 'screen/home/map_screen.dart';
 
 class OnGenerateRoute {
   static Route onGenerateRoute(RouteSettings settings) {
@@ -13,12 +12,12 @@ class OnGenerateRoute {
           builder: (context) => MainScreen(),
         );
         break;
-        case '/history':
+      case '/history':
         return MaterialPageRoute(
           builder: (context) => HistoryScreen(),
         );
         break;
-        case '/Map':
+      case '/Map':
         return MaterialPageRoute(
           builder: (context) => MapScreen(),
         );
