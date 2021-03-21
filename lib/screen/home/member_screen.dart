@@ -11,6 +11,7 @@ class _MemberscreenState extends State<Memberscreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.orange[50],
       appBar: AppBar(
         title: Text("Member"),
       ),
