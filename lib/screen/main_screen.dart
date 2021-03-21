@@ -27,12 +27,12 @@ class _MainScreenState extends State<MainScreen> {
               UserAccountsDrawerHeader(
                 currentAccountPicture: CircleAvatar(
                   backgroundImage: NetworkImage(
-                    "https://i.ytimg.com/vi/2O3Xf1gYwBs/mqdefault.jpg",
+                    "https://thumbs.dreamstime.com/z/wat-phra-singh-temple-chiang-mai-thailand-perhaps-second-most-venerated-doi-suthep-houses-three-main-138330239.jpg",
                   ),
                 ),
-                accountName: Text("Lnwza007"),
+                accountName: Text("WatPhrasingh"),
                 accountEmail: Text(
-                  "Lnwza007@gmail.com",
+                  "WatphraSingh@gmail.com",
                 ),
               ),
               ListTile(
