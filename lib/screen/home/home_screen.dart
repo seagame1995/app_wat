@@ -9,6 +9,11 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  final imageList = [
+    "https://www.renown-travel.com/images/wat-phra-singh-chiang-mai-l.jpg",
+    "https://www.renown-travel.com/images/wat-lok-molee-s.jpg",
+    "https://photos.smugmug.com/Thailand/Chiang-Mai/i-4SKsckV/0/X2/wat_phra_singh_chiang_mai-30-X2.jpg"
+  ];
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -24,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 pagination: SwiperPagination(),
                 itemBuilder: (context, index) {
                   return Image.network(
-                    "https://via.placeholder.com/720x480",
+                    imageList[index],
                     fit: BoxFit.cover,
                   );
                 },
@@ -44,7 +49,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     child: Container(
                       padding: EdgeInsets.all(5),
                       child: Image.network(
-                        "https://via.placeholder.com/480x360",
+                        "https://www.watportal.com/th/file/get/file/201812192b5d0e2cf4594a9089631ef5dcfce41b152903.jpg",
                       ),
                     ),
                   ),
@@ -62,14 +67,14 @@ class _HomeScreenState extends State<HomeScreen> {
                               fit: BoxFit.cover,
                             ),
                             title: Text(
-                              "argument is null, the text will use the style from the closest enclosing",
+                              "ศรัทธาสาธุชน",
                               maxLines: 2,
                               style: TextStyle(
                                 fontSize: 12,
                               ),
                             ),
                             subtitle: Text(
-                              "use the style from the closest enclosing",
+                              "เข้าวัดทำบุญเนื่องในวันมาฆบูชา",
                               maxLines: 2,
                               style: TextStyle(
                                 fontSize: 12,
