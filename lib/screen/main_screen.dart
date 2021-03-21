@@ -53,7 +53,7 @@ class _MainScreenState extends State<MainScreen> {
                 onTap: () {
                   Navigator.pushNamed(context, '/Map');
                 },
-                leading: Icon(Icons.people),
+                leading: Icon(Icons.map),
                 title: Text("Map"),
               ),
             ],
