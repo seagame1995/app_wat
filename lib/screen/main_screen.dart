@@ -27,12 +27,12 @@ class _MainScreenState extends State<MainScreen> {
               UserAccountsDrawerHeader(
                 currentAccountPicture: CircleAvatar(
                   backgroundImage: NetworkImage(
-                    "https://via.placeholder.com/150x150",
+                    "https://i.ytimg.com/vi/2O3Xf1gYwBs/mqdefault.jpg",
                   ),
                 ),
-                accountName: Text("Bundit Nuntates"),
+                accountName: Text("Lnwza007"),
                 accountEmail: Text(
-                  "silkyland@gmail.com",
+                  "Lnwza007@gmail.com",
                 ),
               ),
               ListTile(
