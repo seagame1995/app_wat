@@ -49,6 +49,13 @@ class _MainScreenState extends State<MainScreen> {
                 leading: Icon(Icons.info),
                 title: Text("Information"),
               ),
+              ListTile(
+                onTap: () {
+                  Navigator.pushNamed(context, '/member');
+                },
+                leading: Icon(Icons.people),
+                title: Text("Member"),
+              ),
               
             ],
           ),
