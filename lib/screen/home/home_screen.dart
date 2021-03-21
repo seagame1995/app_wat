@@ -44,7 +44,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     child: Container(
                       padding: EdgeInsets.all(5),
                       child: Image.network(
-                        "https://via.placeholder.com/480x360",
+                        "https://www.watportal.com/th/file/get/file/201812192b5d0e2cf4594a9089631ef5dcfce41b152903.jpg",
                       ),
                     ),
                   ),
@@ -62,14 +62,14 @@ class _HomeScreenState extends State<HomeScreen> {
                               fit: BoxFit.cover,
                             ),
                             title: Text(
-                              "argument is null, the text will use the style from the closest enclosing",
+                              "ศรัทธาสาธุชน",
                               maxLines: 2,
                               style: TextStyle(
                                 fontSize: 12,
                               ),
                             ),
                             subtitle: Text(
-                              "use the style from the closest enclosing",
+                              "เข้าวัดทำบุญเนื่องในวันมาฆบูชา",
                               maxLines: 2,
                               style: TextStyle(
                                 fontSize: 12,
