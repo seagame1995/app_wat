@@ -9,6 +9,11 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  final imageList = [
+    "https://www.renown-travel.com/images/wat-phra-singh-chiang-mai-l.jpg",
+    "https://www.renown-travel.com/images/wat-lok-molee-s.jpg",
+    "https://photos.smugmug.com/Thailand/Chiang-Mai/i-4SKsckV/0/X2/wat_phra_singh_chiang_mai-30-X2.jpg"
+  ];
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -24,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 pagination: SwiperPagination(),
                 itemBuilder: (context, index) {
                   return Image.network(
-                    "https://via.placeholder.com/720x480",
+                    imageList[index],
                     fit: BoxFit.cover,
                   );
                 },
