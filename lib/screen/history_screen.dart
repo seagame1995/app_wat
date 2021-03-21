@@ -33,7 +33,8 @@ class _HistoryScreenState extends State<HistoryScreen> {
           ),
           Container(
             padding: EdgeInsets.all(15),
-            child: Text("บริเวณหน้าวัด",textAlign: TextAlign.center,),
+            child: Text("บริเวณหน้าวัด",
+              textAlign: TextAlign.center,),
           ),
           Container(
             padding: EdgeInsets.all(10),
