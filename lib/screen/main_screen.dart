@@ -42,11 +42,12 @@ class _MainScreenState extends State<MainScreen> {
                 title: Text("หน้าแรก"),
               ),
               ListTile(
-                leading: Icon(
-                  Icons.add_comment_outlined,
-                ),
-                title: Text("ประวัติวัด"),
-              )
+              onTap: (){
+                Navigator.pushNamed(context, '/history');
+              },
+              leading: Icon(Icons.people),
+              title: Text("ประวัติวัด"),
+            ),
             ],
           ),
         ),

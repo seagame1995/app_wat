@@ -1,3 +1,4 @@
+import 'package:app_wat/screen/history_screen.dart';
 import 'package:app_wat/screen/main_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +13,7 @@ class OnGenerateRoute {
         break;
       default:
         return MaterialPageRoute(
-          builder: (context) => MainScreen(),
+          builder: (context) => HistoryScreen(),
         );
     }
   }
