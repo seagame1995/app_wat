@@ -19,12 +19,12 @@ class _HomeScreenState extends State<HomeScreen> {
             Container(
               height: 200,
               child: Swiper(
-                itemCount: 3,
+                itemCount: 4,
                 autoplay: true,
                 pagination: SwiperPagination(),
                 itemBuilder: (context, index) {
                   return Image.network(
-                    "https://via.placeholder.com/720x480",
+                    "https://cdn.galaxy.tf/unit-media/tc-default/uploads/images/poi_photo/001/553/511/wat-phra-sigh-standard.jpg",
                     fit: BoxFit.cover,
                   );
                 },
