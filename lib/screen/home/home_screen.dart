@@ -66,7 +66,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   EdgeInsets.only(left: 5, right: 5),
                               tileColor: Colors.white,
                               leading: Image.network(
-                                'https://lh3.googleusercontent.com/proxy/yp6N8Su5EUZCrVt6FRMQNKzwSSROzDtmv6p_cx-lf3EQk41iYDLf0z0A_OqvFo_inXZstxLk9g6Unjf3h9e3ytT9lOmQl4YTxjrkM58e1g',
+                                'https://lh3.googleusercontent.com/proxy/qh0fp-bJKXnnv-VxLB6cWYOqe6W5iopoWraoKVHByn8DeBIMvNqdE2TE9gULFdqqXw6CTBjyUmrMMKEoDGuwQ73ucfJvBConwyNJFCFI',
                                 fit: BoxFit.cover,
                               ),
                               title: Text(

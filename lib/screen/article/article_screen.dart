@@ -92,7 +92,7 @@ class _HomeScreenState extends State<ArticleScreen> {
             contentPadding: EdgeInsets.only(left: 5, right: 5),
             tileColor: Colors.white,
             leading: Image.network(
-              'https://lh3.googleusercontent.com/proxy/yp6N8Su5EUZCrVt6FRMQNKzwSSROzDtmv6p_cx-lf3EQk41iYDLf0z0A_OqvFo_inXZstxLk9g6Unjf3h9e3ytT9lOmQl4YTxjrkM58e1g',
+              'https://www.bloggang.com/data/t/tathaitravel/picture/1460625602.jpg',
               fit: BoxFit.cover,
             ),
             title: Text(
